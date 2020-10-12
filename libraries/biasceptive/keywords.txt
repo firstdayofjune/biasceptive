@@ -1,0 +1,3 @@
+UltraSonic	KEYWORD1
+measure	KEYWORD2
+movementDetected	KEYWORD2
