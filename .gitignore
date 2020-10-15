@@ -1,5 +1,6 @@
 # System Files
 ._*
+.DS_Store
 
 # Prerequisites
 *.d
