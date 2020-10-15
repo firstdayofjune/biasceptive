@@ -27,25 +27,25 @@ void setup() {
   Serial.begin(9600);
   
   //set up all contraception probabilities
-    contraceptionProbabilityFem[0] = 0.01;
-    contraceptionProbabilityFem[1] = 0.01;
-    contraceptionProbabilityFem[2] = 0.01;
-    contraceptionProbabilityFem[3] = 0.01;
-    contraceptionProbabilityFem[4] = 0.03;
-    contraceptionProbabilityFem[5] = 0.01;
-    contraceptionProbabilityFem[6] = 0.05;
-    contraceptionProbabilityFem[7] = 0.5;
-    contraceptionProbabilityFem[8] = 0.01;
-    contraceptionProbabilityFem[9] = 0.01;
-    contraceptionProbabilityFem[10] = 0.01;
-    contraceptionProbabilityFem[11] = 0.01;
-    contraceptionProbabilityFem[12] = 0.12;
-    contraceptionProbabilityFem[13] = 0.1;
-    contraceptionProbabilityFem[14] = 0.1;
-    contraceptionProbabilityFem[15] = 0.01;
+    contraceptionProbabilityFem[0] = 0.01;  // chem. VM - estimation
+    contraceptionProbabilityFem[1] = 0.06;  // Hormonspirale - estimation
+    contraceptionProbabilityFem[2] = 0.1;   // Kupferspirale  - estimation
+    contraceptionProbabilityFem[3] = 0.12;  // Minipille  - estimation
+    contraceptionProbabilityFem[4] = 0.01;  // Verhütungskappe  - estimation
+    contraceptionProbabilityFem[5] = 0.01;  // Verhütungspflaster - estimation
+    contraceptionProbabilityFem[6] = 0.03;  // Vaginalring - Profamilia
+    contraceptionProbabilityFem[7] = 0.02;  // Sterilisation - Profamilia
+    contraceptionProbabilityFem[8] = 0.5;   // Pille - Profamilia
+    contraceptionProbabilityFem[9] = 0.05;  // Kupferkette - estimation
+    contraceptionProbabilityFem[10] = 0.01; // Hormonstäbchen - estimation
+    contraceptionProbabilityFem[11] = 0.03; // Fruchtbarkeitswahrnehmung - Profamilia
+    contraceptionProbabilityFem[12] = 0.01; // Femidom - estimation
+    contraceptionProbabilityFem[13] = 0.01; // Diaphragma - Profamilia
+    contraceptionProbabilityFem[14] = 0.02; // Depotspritze - Profamilia
+    contraceptionProbabilityFem[15] = 0.01; // Kupferball - estimation
     
-    contraceptionProbabilityMale[0] = 0.98;
-    contraceptionProbabilityMale[1] = 0.02;
+    contraceptionProbabilityMale[0] = 0.03; // Vasektomie - BZgA
+    contraceptionProbabilityMale[1] = 0.97; // Kondom - estimation
   
   
   servoFemale.begin();
