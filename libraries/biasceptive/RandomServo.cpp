@@ -31,8 +31,6 @@ void RandomServo::randomMovement()
 void RandomServo::choose(float* contraceptionProbability,int numberOfProbabilities)
 {
 
-
-
     int targetProbability = random(1,100);
     float lower = 0;
     float upper = contraceptionProbability[0]*100;
@@ -48,9 +46,9 @@ void RandomServo::choose(float* contraceptionProbability,int numberOfProbabiliti
       i++;
     }
 
-    servo.write(180/numberOfProbabilities*(i+1/2));
-    delay(2000);
-    servo.write(45);
+    float position = 180*i/numberOfProbabilities + 180/numberOfProbabilities/2;
+    servo.write(position);
+
 
 
 }

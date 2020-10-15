@@ -48,7 +48,7 @@ void setup() {
     contraceptionProbabilityMale[1] = 0.02;
   
   
-  //servoFemale.begin();
+  servoFemale.begin();
   servoMale.begin();
 
 }
@@ -63,10 +63,9 @@ void loop() {
   if (movement) {
     servoFemale.randomMovement();
     servoFemale.choose(contraceptionProbabilityFem,numberOfContraceptionsFem);
-
+    
     servoMale.randomMovement();
     servoMale.choose(contraceptionProbabilityMale,numberOfContraceptionsMale);
-    Serial.print("fertig");
     delay(1000);
   }
 }

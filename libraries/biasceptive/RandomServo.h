@@ -14,7 +14,7 @@ class RandomServo
   private:
     int _servoPin;
     Servo servo;
-    //float* _contraceptionProbability;
+    
 
 
 };
