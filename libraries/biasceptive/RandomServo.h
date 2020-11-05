@@ -8,15 +8,12 @@ class RandomServo
 {
   public:
     RandomServo(int servoPin);
-    void randomMovement();
     void begin();
-    void choose(float* contraceptionProbability, int numberOfProbabilities);
+    void randomMovement();
+    void choose(float* contraceptionProbabilities, int numberOfProbabilities);
   private:
     int _servoPin;
     Servo servo;
-    
-
-
 };
 
 #endif

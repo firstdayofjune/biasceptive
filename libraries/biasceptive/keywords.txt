@@ -1,3 +1,7 @@
 UltraSonic	KEYWORD1
 measure	KEYWORD2
 movementDetected	KEYWORD2
+RandomServo	KEYWORD1
+begin	KEYWORD2
+randomMovement	KEYWORD2
+choose	KEYWORD2

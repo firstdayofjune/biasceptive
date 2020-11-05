@@ -1,7 +1,6 @@
 /*
-*
+* API for the the HC-SR04 UltraSonic sensor
 * 
-*
 */
 #include "Arduino.h"
 #include "UltraSonic.h"
@@ -20,9 +19,9 @@ int UltraSonic::measure()
 {
   /* Measure the distance using the ultrasonic sensor
   *
-  * Credits for this method goes to from https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/
+  * Credits for this method goes to https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/
   * Returns:
-  *   int 
+  *   int The measured distance
   */
   long duration = 0;
   int distance = 0;
@@ -41,7 +40,12 @@ int UltraSonic::measure()
 }
 
 bool UltraSonic::movementDetected()
-{
+{ 
+  /* Decide if a movement was detected.
+  *
+  * Returns:
+  *   bool True, if a movements was detected, false otherwise
+  */
   int distance = measure();
   if (distance <= _sensitivity) {
     return true;
