@@ -16,7 +16,7 @@ The _Verhütomat_ lists both female* (front) and male* (back) contraceptives. It
 
 <span class="anchor" id="klemm_2016">Klemm, Miriam. 2016.</span> _''Keine Pille für den Mann - Vergeschlechtlichung in der Entwicklung von Kontrazeptiva''_. [Powision - Differenzen, No. 18: pp. 65–68](https://www.academia.edu/29142662/Keine_Pille_f%C3%BCr_den_Mann_Vergeschlechtlichung_in_der_Entwicklung_von_Kontrazeptiva)
 
-<span class="anchor" id="lloyd_2016">Lloyd, Alison and Jackie Waterfield. 2016.</span> _''Men’s perspectives of male hormonal contraception''. International Journal of Reproduction,
+<span class="anchor" id="lloyd_2016">Lloyd, Alison and Jackie Waterfield. 2016.</span> _''Men’s perspectives of male hormonal contraception''_. International Journal of Reproduction,
 Contraception, Obstetrics and Gynecology: pp. 2546–2552.
 
 <span class="anchor" id="ratto_2011">Ratto, Matt. 2011.</span> _''Critical Making: Conceptual and Material Studies in Technology and Social Life''_. [The Information Society 27](https://www.researchgate.net/publication/220175067_Critical_Making_Conceptual_and_Material_Studies_in_Technology_and_Social_Life#fullTextFileContent) (4): pp. 252–260.
