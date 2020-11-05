@@ -44,8 +44,8 @@ void setup() {
     contraceptionProbabilityFem[14] = 0.02; // Depotspritze - Profamilia
     contraceptionProbabilityFem[15] = 0.01; // Kupferball - estimation
     
-    contraceptionProbabilityMale[0] = 0.03; // Vasektomie - BZgA
-    contraceptionProbabilityMale[1] = 0.97; // Kondom - estimation
+    contraceptionProbabilityMale[0] = 0.97; // Kondom - estimation
+    contraceptionProbabilityMale[1] = 0.03; // Vasektomie - BZgA
   
   
   servoFemale.begin();
